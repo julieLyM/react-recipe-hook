@@ -3,8 +3,8 @@ import Recipe from './Recipe'
 import './App.css';
 
 const App = () => {
-  const APP_ID = process.env.dev
-  const APP_KEY = process.env.dev
+  const APP_ID = process.env.APP_ID
+  const APP_KEY = process.env.APP_KEY
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('');
